@@ -6,6 +6,7 @@
   "scripts": {
     "compile": "babel src --presets react,es2015 --out-dir static",
     "watch": "babel src --presets react,es2015 --out-dir static -–watch",
+    "prestart": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
