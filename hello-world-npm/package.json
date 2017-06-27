@@ -4,13 +4,19 @@
   "description": "MERN ",
   "main": "index.js",
   "scripts": {
+    "compile": "babel src --presets react --out-dir static",
+    "watch": "babel src --presets react --out-dir static -–watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "MERN"
+    "mern",
+    "react",
+    "mongodb",
+    "express",
+    "node"
   ],
-  "author": "Khalil",
-  "license": "MIT",
+  "author": "Khalil Mohammad Mirza",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
   },
